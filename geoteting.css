@@ -1,3 +1,37 @@
 
 img {float: left;}
-#header { border: thin solid black; background-color: #2D4F15; color: white}
+#header { border: thin solid black; background-color: #476e2f; color: white}
+
+.nav {
+    background: orange;
+    width: 100%;
+}
+
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: orange;
+}
+
+.nav ul li {
+    list-style: none;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+
+}
+
+.nav ul li a:hover {
+    color: black;
+
+
+}
