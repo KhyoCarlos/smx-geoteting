@@ -12,7 +12,7 @@ img {float: left;}
   margin: 0;
   padding: 0;
   overflow: hidden;
-    background-color: orange;
+    background-color: #476e2f;
 }
 
 .nav ul li {
@@ -32,6 +32,56 @@ img {float: left;}
 
 .nav ul li a:hover {
     color: black;
+
+
+}
+
+.pagefoot {
+    background: orange;
+    width: 100%;
+    text-align: center;
+}
+
+
+.pagefoot ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: #83603f;
+      text-align: center;
+}
+
+.pagefoot ul li {
+    list-style: none;
+      text-align: center;
+
+}
+
+.pagefoot ul li a {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+      text-align: center;
+
+}
+
+.pagefoot ul li a:hover {
+    color: white;
+      text-align: center;
+
+
+}
+
+.imagefoot {
+
+width: 1100
+background-image: url("hola.png"); 
+
+
+
 
 
 }
