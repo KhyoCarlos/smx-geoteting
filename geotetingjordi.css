@@ -1,40 +1,56 @@
-
 img {float: left;}
-#header { border: thin solid black; background-color: #476e2f; color: white}
+#header { border: thin solid black; background-color: #02874d;
+  color: white; padding-left: 15%;}
 
-.nav {
-    background: orange;
-    width: 100%;
+.clearfix { clear: both; }
+
+#header h1 { float: left;}
+#header-left { float: left; width: 20%; }
+#header-right { float: left; width: 80%; padding-top: 15px;; }
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02874d;
 }
-
-
-.nav ul {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-    background-color: #476e2f;
-}
-
-.nav ul li {
-    list-style: none;
-
-}
-
-.nav ul li a {
-    text-decoration: none;
+li {
     float: left;
-    text-align: center;
+}
+
+li a {
+
     display: block;
-    padding: 10px 20px;
-    color: black;
-
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.nav ul li a:hover {
-    color: black;
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pagefoot {
     background: orange;
@@ -79,9 +95,3 @@ img {float: left;}
 
 width: 1100
 background-image: url("hola.png");
-
-
-
-
-
-}
